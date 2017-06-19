@@ -30,7 +30,7 @@ Another popular open source time series package on Spark ([Spark-ts](http://sryz
 
 The scalaTS package keeps enabling time series utilities and models for large-scale time series data sets, as analogous as R's [forecast package](https://cran.r-project.org/web/packages/forecast), Matlab's [time series](http://www.mathworks.com/help/matlab/time-series.html), [Spark-ts](http://sryza.github.io/spark-timeseries/0.3.0/index.html)...
 
-![Running time](https://github.com/liao-iu/scalaTS/blob/master/images/runningTime.png)
+![Running time](https://github.com/liao-iu/scalaTS/blob/master/docs/images/runningTime.png)
 
 ### What’s in the package - Time Series Utilities and Models
 #### Time Series Utilities
