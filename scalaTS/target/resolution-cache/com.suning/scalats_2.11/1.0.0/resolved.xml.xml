@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.suning"
+		module="scalats_2.11"
+		revision="1.0.0"
+		status="integration"
+		publication="20170609143804"
+	>
+		<description>
+		ScalaTS
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="scalats_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="scalats_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="scalats_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="scalats_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.8" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging-slf4j_2.11" rev="2.1.2" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.0.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-mllib-local_2.11" rev="2.0.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.0.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.0.0" conf="provided->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-core_2.11" rev="7.2.6" conf="compile->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze_2.11" rev="0.11" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-natives_2.11" rev="0.11" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-viz_2.11" rev="0.11" conf="compile->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-hive_2.11" rev="2.0.0" conf="compile->default(compile)"/>
+		<dependency org="org.ansj" name="ansj_seg" rev="5.0.3" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

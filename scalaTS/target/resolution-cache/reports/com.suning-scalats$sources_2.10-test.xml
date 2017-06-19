@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.suning"
+		module="scalats$sources_2.10"
+		revision="1.0.0"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170112161309"/>
+	<dependencies>
+		<module organisation="org.scalanlp" name="breeze-viz_2.10">
+			<revision name="0.11" status="release" pubdate="20150302225000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3717" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-viz_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze-viz_2.10/0.11/breeze-viz_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="test, compile, runtime" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze-viz_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19290" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-viz_2.10/srcs/breeze-viz_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-viz_2.10/0.11/breeze-viz_2.10-0.11-sources.jar"/>
+					</artifact>
+					<artifact name="breeze-viz_2.10" type="jar" ext="jar" status="no" details="" size="198854" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-viz_2.10/jars/breeze-viz_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-viz_2.10/0.11/breeze-viz_2.10-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-natives_2.10">
+			<revision name="0.11" status="release" pubdate="20150302225000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2883" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-natives_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze-natives_2.10/0.11/breeze-natives_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="test, compile, runtime" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze-natives_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="253" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-natives_2.10/srcs/breeze-natives_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-natives_2.10/0.11/breeze-natives_2.10-0.11-sources.jar"/>
+					</artifact>
+					<artifact name="breeze-natives_2.10" type="jar" ext="jar" status="no" details="" size="280" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-natives_2.10/jars/breeze-natives_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-natives_2.10/0.11/breeze-natives_2.10-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze_2.10">
+			<revision name="0.11" status="release" pubdate="20150302225000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.11/breeze_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="test, compile, runtime" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="425606" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze_2.10/srcs/breeze_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.11/breeze_2.10-0.11-sources.jar"/>
+					</artifact>
+					<artifact name="breeze_2.10" type="jar" ext="jar" status="no" details="" size="13463064" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.11/breeze_2.10-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.10">
+			<revision name="0.11" status="release" pubdate="20150302224500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-macros_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.11/breeze-macros_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="test, compile, runtime" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.10" type="jar" ext="jar" status="no" details="" size="118299" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.11/breeze-macros_2.10-0.11.jar"/>
+					</artifact>
+					<artifact name="breeze-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5541" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-macros_2.10/srcs/breeze-macros_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.11/breeze-macros_2.10-0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

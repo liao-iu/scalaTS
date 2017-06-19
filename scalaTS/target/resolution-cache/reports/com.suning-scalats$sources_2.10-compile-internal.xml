@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.suning"
+		module="scalats$sources_2.10"
+		revision="1.0.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170112161309"/>
+	<dependencies>
+		<module organisation="org.apache.spark" name="spark-hive_2.10">
+			<revision name="1.5.2" status="release" pubdate="20151110163840" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="75642" time="0" location="/Users/Leon/.ivy2/cache/org.apache.spark/spark-hive_2.10/ivy-1.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-hive_2.10/1.5.2/spark-hive_2.10-1.5.2.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.5.2" rev-constraint-default="1.5.2" rev-constraint-dynamic="1.5.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="spark-hive_2.10" type="jar" ext="jar" status="no" details="" size="1276885" time="0" location="/Users/Leon/.ivy2/cache/org.apache.spark/spark-hive_2.10/jars/spark-hive_2.10-1.5.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-hive_2.10/1.5.2/spark-hive_2.10-1.5.2.jar"/>
+					</artifact>
+					<artifact name="spark-hive_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="129820" time="0" location="/Users/Leon/.ivy2/cache/org.apache.spark/spark-hive_2.10/srcs/spark-hive_2.10-1.5.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-hive_2.10/1.5.2/spark-hive_2.10-1.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.5" status="release" pubdate="20141003025600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6459" time="0" location="/Users/Leon/.ivy2/cache/joda-time/joda-time/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="749025" time="0" location="/Users/Leon/.ivy2/cache/joda-time/joda-time/srcs/joda-time-2.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5-sources.jar"/>
+					</artifact>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="588001" time="0" location="/Users/Leon/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/joda-time/joda-time/2.5/joda-time-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106091500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="33">
+				<metadata-artifact status="no" details="" size="10380" time="0" location="/Users/Leon/.ivy2/cache/commons-codec/commons-codec/ivy-1.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="301032" time="0" location="/Users/Leon/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"/>
+					</artifact>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="/Users/Leon/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.3.2" status="release" pubdate="20140115134300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="31">
+				<metadata-artifact status="no" details="" size="10484" time="0" location="/Users/Leon/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="587762" time="0" location="/Users/Leon/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.3.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.jar"/>
+					</artifact>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="660058" time="0" location="/Users/Leon/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.3.1" status="release" pubdate="20131218090600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="32">
+				<metadata-artifact status="no" details="" size="7543" time="0" location="/Users/Leon/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="282285" time="0" location="/Users/Leon/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar"/>
+					</artifact>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="376935" time="0" location="/Users/Leon/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.3.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spark-project.hive" name="hive-exec">
+			<revision name="1.2.1.spark" status="release" pubdate="20150805193206" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<metadata-artifact status="no" details="" size="36110" time="0" location="/Users/Leon/.ivy2/cache/org.spark-project.hive/hive-exec/ivy-1.2.1.spark.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.2.1.spark" rev-constraint-default="1.2.1.spark" rev-constraint-dynamic="1.2.1.spark" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="hive-exec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5649324" time="0" location="/Users/Leon/.ivy2/cache/org.spark-project.hive/hive-exec/srcs/hive-exec-1.2.1.spark-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark-sources.jar"/>
+					</artifact>
+					<artifact name="hive-exec" type="jar" ext="jar" status="no" details="" size="11143206" time="0" location="/Users/Leon/.ivy2/cache/org.spark-project.hive/hive-exec/jars/hive-exec-1.2.1.spark.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/hive/hive-exec/1.2.1.spark/hive-exec-1.2.1.spark.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.12" status="release" pubdate="20140606172408" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3773" time="0" location="/Users/Leon/.ivy2/cache/jline/jline/ivy-2.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="2.12" rev-constraint-default="2.12" rev-constraint-dynamic="2.12" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="jline" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="89671" time="0" location="/Users/Leon/.ivy2/cache/jline/jline/srcs/jline-2.12-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/jline/jline/2.12/jline-2.12-sources.jar"/>
+					</artifact>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="213854" time="0" location="/Users/Leon/.ivy2/cache/jline/jline/jars/jline-2.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.iq80.snappy" name="snappy">
+			<revision name="0.2" status="release" pubdate="20111223132311" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/dain/snappy" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3233" time="0" location="/Users/Leon/.ivy2/cache/org.iq80.snappy/snappy/ivy-0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/iq80/snappy/snappy/0.2/snappy-0.2.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.2" rev-constraint-default="0.2" rev-constraint-dynamic="0.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="snappy" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40803" time="0" location="/Users/Leon/.ivy2/cache/org.iq80.snappy/snappy/srcs/snappy-0.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/iq80/snappy/snappy/0.2/snappy-0.2-sources.jar"/>
+					</artifact>
+					<artifact name="snappy" type="jar" ext="jar" status="no" details="" size="48720" time="0" location="/Users/Leon/.ivy2/cache/org.iq80.snappy/snappy/jars/snappy-0.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/iq80/snappy/snappy/0.2/snappy-0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.javaewah" name="JavaEWAH">
+			<revision name="0.3.2" status="release" pubdate="20120116095711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/javaewah/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3927" time="0" location="/Users/Leon/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/ivy-0.3.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="JavaEWAH" type="jar" ext="jar" status="no" details="" size="16993" time="0" location="/Users/Leon/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/jars/JavaEWAH-0.3.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2.jar"/>
+					</artifact>
+					<artifact name="JavaEWAH" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11366" time="0" location="/Users/Leon/.ivy2/cache/com.googlecode.javaewah/JavaEWAH/srcs/JavaEWAH-0.3.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/googlecode/javaewah/JavaEWAH/0.3.2/JavaEWAH-0.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.calcite" name="calcite-core">
+			<revision name="1.2.0-incubating" status="release" pubdate="20150407170200" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<metadata-artifact status="no" details="" size="16571" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-core/ivy-1.2.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.2.0-incubating" rev-constraint-default="1.2.0-incubating" rev-constraint-dynamic="1.2.0-incubating" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="calcite-core" type="jar" ext="jar" status="no" details="" size="3519262" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-core/jars/calcite-core-1.2.0-incubating.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating.jar"/>
+					</artifact>
+					<artifact name="calcite-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2211069" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-core/srcs/calcite-core-1.2.0-incubating-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/calcite/calcite-core/1.2.0-incubating/calcite-core-1.2.0-incubating-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.hydromatic" name="eigenbase-properties">
+			<revision name="1.1.5" status="release" pubdate="20150305202800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/julianhyde/eigenbase-properties" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3094" time="0" location="/Users/Leon/.ivy2/cache/net.hydromatic/eigenbase-properties/ivy-1.1.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.1.5" rev-constraint-default="1.1.5" rev-constraint-dynamic="1.1.5" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="eigenbase-properties" type="jar" ext="jar" status="no" details="" size="18482" time="0" location="/Users/Leon/.ivy2/cache/net.hydromatic/eigenbase-properties/jars/eigenbase-properties-1.1.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5.jar"/>
+					</artifact>
+					<artifact name="eigenbase-properties" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20107" time="0" location="/Users/Leon/.ivy2/cache/net.hydromatic/eigenbase-properties/srcs/eigenbase-properties-1.1.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/net/hydromatic/eigenbase-properties/1.1.5/eigenbase-properties-1.1.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.calcite" name="calcite-linq4j">
+			<revision name="1.2.0-incubating" status="release" pubdate="20150407165900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="29">
+				<metadata-artifact status="no" details="" size="13698" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-linq4j/ivy-1.2.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.2.0-incubating" rev-constraint-default="1.2.0-incubating" rev-constraint-dynamic="1.2.0-incubating" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="calcite-linq4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="216339" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-linq4j/srcs/calcite-linq4j-1.2.0-incubating-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating-sources.jar"/>
+					</artifact>
+					<artifact name="calcite-linq4j" type="jar" ext="jar" status="no" details="" size="442406" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-linq4j/jars/calcite-linq4j-1.2.0-incubating.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/calcite/calcite-linq4j/1.2.0-incubating/calcite-linq4j-1.2.0-incubating.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.calcite" name="calcite-avatica">
+			<revision name="1.2.0-incubating" status="release" pubdate="20150407165900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="13846" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-avatica/ivy-1.2.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.2.0-incubating" rev-constraint-default="1.2.0-incubating" rev-constraint-dynamic="1.2.0-incubating" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="calcite-avatica" type="jar" ext="jar" status="no" details="" size="258370" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-avatica/jars/calcite-avatica-1.2.0-incubating.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating.jar"/>
+					</artifact>
+					<artifact name="calcite-avatica" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="126435" time="0" location="/Users/Leon/.ivy2/cache/org.apache.calcite/calcite-avatica/srcs/calcite-avatica-1.2.0-incubating-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/calcite/calcite-avatica/1.2.0-incubating/calcite-avatica-1.2.0-incubating-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jodd" name="jodd-core">
+			<revision name="3.5.2" status="release" pubdate="20140428035200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jodd.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<license name="The New BSD License" url="http://jodd.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2375" time="0" location="/Users/Leon/.ivy2/cache/org.jodd/jodd-core/ivy-3.5.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.5.2" rev-constraint-default="3.5.2" rev-constraint-dynamic="3.5.2" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="jodd-core" type="jar" ext="jar" status="no" details="" size="427780" time="0" location="/Users/Leon/.ivy2/cache/org.jodd/jodd-core/jars/jodd-core-3.5.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2.jar"/>
+					</artifact>
+					<artifact name="jodd-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="318432" time="0" location="/Users/Leon/.ivy2/cache/org.jodd/jodd-core/srcs/jodd-core-3.5.2-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.groovy" name="groovy-all">
+			<revision name="2.1.6" status="release" pubdate="20130709121700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://groovy.codehaus.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5498" time="0" location="/Users/Leon/.ivy2/cache/org.codehaus.groovy/groovy-all/ivy-2.1.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.1.6/groovy-all-2.1.6.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="2.1.6" rev-constraint-default="2.1.6" rev-constraint-dynamic="2.1.6" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="groovy-all" type="jar" ext="jar" status="no" details="" size="6377448" time="0" location="/Users/Leon/.ivy2/cache/org.codehaus.groovy/groovy-all/jars/groovy-all-2.1.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.1.6/groovy-all-2.1.6.jar"/>
+					</artifact>
+					<artifact name="groovy-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2454967" time="0" location="/Users/Leon/.ivy2/cache/org.codehaus.groovy/groovy-all/srcs/groovy-all-2.1.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.1.6/groovy-all-2.1.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="ST4">
+			<revision name="4.0.4" status="release" pubdate="20110718200626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4005" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/ST4/ivy-4.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/antlr/ST4/4.0.4/ST4-4.0.4.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="4.0.4" rev-constraint-default="4.0.4" rev-constraint-dynamic="4.0.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="ST4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="187964" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/ST4/srcs/ST4-4.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/antlr/ST4/4.0.4/ST4-4.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="ST4" type="jar" ext="jar" status="no" details="" size="236660" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/ST4/jars/ST4-4.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/antlr/ST4/4.0.4/ST4-4.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javolution" name="javolution">
+			<revision name="5.5.1" status="release" pubdate="20100504074349" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://javolution.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="BSD License" url="http://javolution.org/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3326" time="0" location="/Users/Leon/.ivy2/cache/javolution/javolution/ivy-5.5.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javolution/javolution/5.5.1/javolution-5.5.1.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="5.5.1" rev-constraint-default="5.5.1" rev-constraint-dynamic="5.5.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="javolution" type="jar" ext="jar" status="no" details="" size="395195" time="0" location="/Users/Leon/.ivy2/cache/javolution/javolution/jars/javolution-5.5.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javolution/javolution/5.5.1/javolution-5.5.1.jar"/>
+					</artifact>
+					<artifact name="javolution" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="650739" time="0" location="/Users/Leon/.ivy2/cache/javolution/javolution/srcs/javolution-5.5.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javolution/javolution/5.5.1/javolution-5.5.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spark-project.hive" name="hive-metastore">
+			<revision name="1.2.1.spark" status="release" pubdate="20150805193207" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<metadata-artifact status="no" details="" size="30879" time="0" location="/Users/Leon/.ivy2/cache/org.spark-project.hive/hive-metastore/ivy-1.2.1.spark.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.2.1.spark" rev-constraint-default="1.2.1.spark" rev-constraint-dynamic="1.2.1.spark" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="hive-metastore" type="jar" ext="jar" status="no" details="" size="5505194" time="0" location="/Users/Leon/.ivy2/cache/org.spark-project.hive/hive-metastore/jars/hive-metastore-1.2.1.spark.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark.jar"/>
+					</artifact>
+					<artifact name="hive-metastore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1077819" time="0" location="/Users/Leon/.ivy2/cache/org.spark-project.hive/hive-metastore/srcs/hive-metastore-1.2.1.spark-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spark-project/hive/hive-metastore/1.2.1.spark/hive-metastore-1.2.1.spark-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.4" status="release" pubdate="20110719123614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<metadata-artifact status="no" details="" size="4160" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/antlr-runtime/ivy-3.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.4" rev-constraint-default="3.4" rev-constraint-dynamic="3.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="164368" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/antlr-runtime/jars/antlr-runtime-3.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"/>
+					</artifact>
+					<artifact name="antlr-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="201029" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/antlr-runtime/srcs/antlr-runtime-3.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="stringtemplate">
+			<revision name="3.2.1" status="release" pubdate="20090922192529" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.stringtemplate.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="BSD licence" url="http://antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3558" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/stringtemplate/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="stringtemplate" type="jar" ext="jar" status="no" details="" size="148627" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/stringtemplate/jars/stringtemplate-3.2.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar"/>
+					</artifact>
+					<artifact name="stringtemplate" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="162458" time="0" location="/Users/Leon/.ivy2/cache/org.antlr/stringtemplate/srcs/stringtemplate-3.2.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datanucleus" name="datanucleus-rdbms">
+			<revision name="3.2.9" status="release" pubdate="20131210033200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.datanucleus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5189" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-rdbms/ivy-3.2.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.2.9" rev-constraint-default="3.2.9" rev-constraint-dynamic="3.2.9" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="datanucleus-rdbms" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1603344" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-rdbms/srcs/datanucleus-rdbms-3.2.9-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9-sources.jar"/>
+					</artifact>
+					<artifact name="datanucleus-rdbms" type="jar" ext="jar" status="no" details="" size="1809447" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-rdbms/jars/datanucleus-rdbms-3.2.9.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datanucleus/datanucleus-rdbms/3.2.9/datanucleus-rdbms-3.2.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-dbcp" name="commons-dbcp">
+			<revision name="1.4" status="release" pubdate="20100207125626" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/dbcp/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="25">
+				<metadata-artifact status="no" details="" size="5629" time="0" location="/Users/Leon/.ivy2/cache/commons-dbcp/commons-dbcp/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-dbcp" type="jar" ext="jar" status="no" details="" size="160519" time="0" location="/Users/Leon/.ivy2/cache/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar"/>
+					</artifact>
+					<artifact name="commons-dbcp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="159513" time="0" location="/Users/Leon/.ivy2/cache/commons-dbcp/commons-dbcp/srcs/commons-dbcp-1.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-pool" name="commons-pool">
+			<revision name="1.5.4" status="release" pubdate="20091112204653" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/pool/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<metadata-artifact status="no" details="" size="4814" time="0" location="/Users/Leon/.ivy2/cache/commons-pool/commons-pool/ivy-1.5.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-pool" type="jar" ext="jar" status="no" details="" size="96221" time="0" location="/Users/Leon/.ivy2/cache/commons-pool/commons-pool/jars/commons-pool-1.5.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"/>
+					</artifact>
+					<artifact name="commons-pool" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="96194" time="0" location="/Users/Leon/.ivy2/cache/commons-pool/commons-pool/srcs/commons-pool-1.5.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datanucleus" name="datanucleus-api-jdo">
+			<revision name="3.2.6" status="release" pubdate="20131210032800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.datanucleus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3691" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/ivy-3.2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.2.6" rev-constraint-default="3.2.6" rev-constraint-dynamic="3.2.6" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="datanucleus-api-jdo" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="304125" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/srcs/datanucleus-api-jdo-3.2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6-sources.jar"/>
+					</artifact>
+					<artifact name="datanucleus-api-jdo" type="jar" ext="jar" status="no" details="" size="339666" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-api-jdo/jars/datanucleus-api-jdo-3.2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datanucleus/datanucleus-api-jdo/3.2.6/datanucleus-api-jdo-3.2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.datanucleus" name="datanucleus-core">
+			<revision name="3.2.10" status="release" pubdate="20131210032600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.datanucleus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5928" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-core/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="datanucleus-core" type="jar" ext="jar" status="no" details="" size="1890075" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-core/jars/datanucleus-core-3.2.10.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10.jar"/>
+					</artifact>
+					<artifact name="datanucleus-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1812593" time="0" location="/Users/Leon/.ivy2/cache/org.datanucleus/datanucleus-core/srcs/datanucleus-core-3.2.10-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/datanucleus/datanucleus-core/3.2.10/datanucleus-core-3.2.10-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.jdo" name="jdo-api">
+			<revision name="3.0.1" status="release" pubdate="20120209090107" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://db.apache.org/jdo" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="26">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3252" time="0" location="/Users/Leon/.ivy2/cache/javax.jdo/jdo-api/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="jdo-api" type="jar" ext="jar" status="no" details="" size="201124" time="0" location="/Users/Leon/.ivy2/cache/javax.jdo/jdo-api/jars/jdo-api-3.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1.jar"/>
+					</artifact>
+					<artifact name="jdo-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="231021" time="0" location="/Users/Leon/.ivy2/cache/javax.jdo/jdo-api/srcs/jdo-api-3.0.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/jdo/jdo-api/3.0.1/jdo-api-3.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.transaction" name="jta">
+			<revision name="1.1" status="release" pubdate="20081027212721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://java.sun.com/products/jta" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="27">
+				<metadata-artifact status="no" details="" size="2353" time="0" location="/Users/Leon/.ivy2/cache/javax.transaction/jta/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="jta" type="jar" ext="jar" status="no" details="" size="15071" time="0" location="/Users/Leon/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1.jar"/>
+					</artifact>
+					<artifact name="jta" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25014" time="0" location="/Users/Leon/.ivy2/cache/javax.transaction/jta/srcs/jta-1.1-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/transaction/jta/1.1/jta-1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.3" status="release" pubdate="20130516160523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="10109" time="0" location="/Users/Leon/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="62050" time="0" location="/Users/Leon/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+					</artifact>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73915" time="0" location="/Users/Leon/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.3-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110116172147" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<metadata-artifact status="no" details="" size="6396" time="0" location="/Users/Leon/.ivy2/cache/commons-lang/commons-lang/ivy-2.6.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="/Users/Leon/.ivy2/cache/commons-lang/commons-lang/jars/commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+					<artifact name="commons-lang" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="372982" time="0" location="/Users/Leon/.ivy2/cache/commons-lang/commons-lang/srcs/commons-lang-2.6-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.jolbox" name="bonecp">
+			<revision name="0.8.0.RELEASE" status="release" pubdate="20131023074844" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="9318" time="0" location="/Users/Leon/.ivy2/cache/com.jolbox/bonecp/ivy-0.8.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.8.0.RELEASE" rev-constraint-default="0.8.0.RELEASE" rev-constraint-dynamic="0.8.0.RELEASE" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="bonecp" type="jar" ext="jar" status="no" details="" size="110600" time="0" location="/Users/Leon/.ivy2/cache/com.jolbox/bonecp/jars/bonecp-0.8.0.RELEASE.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar"/>
+					</artifact>
+					<artifact name="bonecp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="101324" time="0" location="/Users/Leon/.ivy2/cache/com.jolbox/bonecp/srcs/bonecp-0.8.0.RELEASE-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="parquet-hadoop-bundle">
+			<revision name="1.6.0" status="release" pubdate="20150424204200" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.incubator.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<metadata-artifact status="no" details="" size="6350" time="0" location="/Users/Leon/.ivy2/cache/com.twitter/parquet-hadoop-bundle/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="parquet-hadoop-bundle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6539" time="0" location="/Users/Leon/.ivy2/cache/com.twitter/parquet-hadoop-bundle/srcs/parquet-hadoop-bundle-1.6.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0-sources.jar"/>
+					</artifact>
+					<artifact name="parquet-hadoop-bundle" type="jar" ext="jar" status="no" details="" size="2796935" time="0" location="/Users/Leon/.ivy2/cache/com.twitter/parquet-hadoop-bundle/jars/parquet-hadoop-bundle-1.6.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/twitter/parquet-hadoop-bundle/1.6.0/parquet-hadoop-bundle-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-viz_2.10">
+			<revision name="0.11" status="release" pubdate="20150302225000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3717" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-viz_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze-viz_2.10/0.11/breeze-viz_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze-viz_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19290" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-viz_2.10/srcs/breeze-viz_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-viz_2.10/0.11/breeze-viz_2.10-0.11-sources.jar"/>
+					</artifact>
+					<artifact name="breeze-viz_2.10" type="jar" ext="jar" status="no" details="" size="198854" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-viz_2.10/jars/breeze-viz_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-viz_2.10/0.11/breeze-viz_2.10-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-natives_2.10">
+			<revision name="0.11" status="release" pubdate="20150302225000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2883" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-natives_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze-natives_2.10/0.11/breeze-natives_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze-natives_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="253" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-natives_2.10/srcs/breeze-natives_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-natives_2.10/0.11/breeze-natives_2.10-0.11-sources.jar"/>
+					</artifact>
+					<artifact name="breeze-natives_2.10" type="jar" ext="jar" status="no" details="" size="280" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-natives_2.10/jars/breeze-natives_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-natives_2.10/0.11/breeze-natives_2.10-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze_2.10">
+			<revision name="0.11" status="release" pubdate="20150302225000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.11/breeze_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="425606" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze_2.10/srcs/breeze_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.11/breeze_2.10-0.11-sources.jar"/>
+					</artifact>
+					<artifact name="breeze_2.10" type="jar" ext="jar" status="no" details="" size="13463064" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze_2.10/jars/breeze_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze_2.10/0.11/breeze_2.10-0.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalanlp" name="breeze-macros_2.10">
+			<revision name="0.11" status="release" pubdate="20150302224500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalanlp.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-macros_2.10/ivy-0.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.11/breeze-macros_2.10-0.11.pom"/>
+				<caller organisation="com.suning" name="scalats$sources_2.10" conf="compile-internal, compile, provided, optional" rev="0.11" rev-constraint-default="0.11" rev-constraint-dynamic="0.11" callerrev="1.0.0"/>
+				<artifacts>
+					<artifact name="breeze-macros_2.10" type="jar" ext="jar" status="no" details="" size="118299" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-macros_2.10/jars/breeze-macros_2.10-0.11.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.11/breeze-macros_2.10-0.11.jar"/>
+					</artifact>
+					<artifact name="breeze-macros_2.10" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5541" time="0" location="/Users/Leon/.ivy2/cache/org.scalanlp/breeze-macros_2.10/srcs/breeze-macros_2.10-0.11-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalanlp/breeze-macros_2.10/0.11/breeze-macros_2.10-0.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
