@@ -1,5 +1,5 @@
 ## Welcome to scalaTS GitHub Page
-### :boom:Our distributed Time Series Analysis with DataFrames
+### Our distributed Time Series Analysis with DataFrames
 
 Docs of Updates are published here and the package is hosted at this [GitHub page](https://github.com/liao-iu/scalaTS/tree/master/scalaTS). This package is introduced and present at the Spark Summit 2017, Data Science And Engineering At Scale, San Francisco, [slides](https://www.slideshare.net/databricks/machine-learning-as-a-service-apache-spark-mllib-enrichment-and-webbased-codeless-modeling-with-zhengyi-le).
 
