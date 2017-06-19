@@ -30,7 +30,7 @@ Another popular open source time series package on Spark ([Spark-ts](http://sryz
 
 The scalaTS package keeps enabling time series utilities and models for large-scale time series data sets, as analogous as R's [forecast package](https://cran.r-project.org/web/packages/forecast), Matlab's [time series](http://www.mathworks.com/help/matlab/time-series.html), [Spark-ts](http://sryza.github.io/spark-timeseries/0.3.0/index.html)...
 
-![Running time](https://github.iu.edu/liao-iu/scalaTS/blob/master/images/runningTime.png)
+![Running time](https://github.com/liao-iu/scalaTS/blob/master/images/runningTime.png)
 
 ### What’s in the package - Time Series Utilities and Models
 #### Time Series Utilities
@@ -68,4 +68,5 @@ The scalaTS package keeps enabling time series utilities and models for large-sc
 - The auto ARIMA model picks best order of the autoregressive part (p), order of the moving average part (q) and order of the integrated part (d) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of (p, d, q) for ARIMA model.
 
 Copyright [2016/7] [Big Data lab, Suning R&D]
+
 © 2016 Big Data lab, Suning, USA.
