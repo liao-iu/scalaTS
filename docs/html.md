@@ -1,7 +1,7 @@
 ## Welcome to scalaTS GitHub Page
 ### Our distributed Time Series Analysis with DataFrames
 
-Docs of Updates are published here and the package is hosted at this [GitHub page](https://github.com/liao-iu/scalaTS/tree/master/scalaTS). This package is introduced and present at the Spark Summit 2017, Data Science And Engineering At Scale, San Francisco, [slides](https://www.slideshare.net/databricks/machine-learning-as-a-service-apache-spark-mllib-enrichment-and-webbased-codeless-modeling-with-zhengyi-le).
+Docs of Updates are published here and the package is hosted at this [GitHub page](https://github.com/liao-iu/scalaTS/tree/master/scalaTS). This package is introduced and present at the Spark Summit 2017, San Francisco, [slides](https://www.slideshare.net/databricks/machine-learning-as-a-service-apache-spark-mllib-enrichment-and-webbased-codeless-modeling-with-zhengyi-le).
 
 ### Content
 
@@ -38,45 +38,58 @@ The scalaTS package keeps enabling time series utilities and models for large-sc
 ### What’s in the package - Time Series Utilities and Models
 #### Time Series Utilities
 * Time series decomposition:
-- It is an important technique for every time series analysis. It decomposes an observed time series into several components including predictable and unpredictable components. Both [additive and multiplicative time series decomposition](https://en.wikipedia.org/wiki/Decomposition_of_time_series) are available.
+
+It is an important technique for every time series analysis. It decomposes an observed time series into several components including predictable and unpredictable components. Both [additive and multiplicative time series decomposition](https://en.wikipedia.org/wiki/Decomposition_of_time_series) are available.
 * Time series lagging:
-- Time series lagging generates DataFrames of Spark with lagged terms given an observed time series.
+
+Time series lagging generates DataFrames of Spark with lagged terms given an observed time series.
 * Time series differencing:
-- Time series differencing gives DataFrames of Spark with differenced terms given an observed time series.
+
+Time series differencing gives DataFrames of Spark with differenced terms given an observed time series.
 * Save or Load models:
-- The scalaTS supports both saving and loading time series models.
+
+The scalaTS supports both saving and loading time series models.
 
 #### Time Series Models
 * Autocorrelation function:
-- The [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) reflects the correlation between values of a given time series and at different time lags. It looks for repeating patterns to analyze functions or series of values. For the estimation of a moving average model, the autocorrelation function is applied to determine a proper number of lagged terms (denoted as q).
+
+The [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation) reflects the correlation between values of a given time series and at different time lags. It looks for repeating patterns to analyze functions or series of values. For the estimation of a moving average model, the autocorrelation function is applied to determine a proper number of lagged terms (denoted as q).
 * Partial autocorrelation function (implement both Yule-Walker and OLS methods):
-- With controlling the smaller lags of time series, the [partial autocorrelation function](https://en.wikipedia.org/wiki/Partial_autocorrelation_function) computes the partial correlation with its lagged values. For an autoregressive model, the partial autocorrelation function features identifying the length of lags and deciding an appropriate lags (denoted as p).
+
+With controlling the smaller lags of time series, the [partial autocorrelation function](https://en.wikipedia.org/wiki/Partial_autocorrelation_function) computes the partial correlation with its lagged values. For an autoregressive model, the partial autocorrelation function features identifying the length of lags and deciding an appropriate lags (denoted as p).
 * AIC/ AICc/ BIC calculations:
-- The scalaTS enables calculations of information criterions including Akaike information criterions ([AIC](https://en.wikipedia.org/wiki/Akaike_information_criterion))/ AIC with correction for finite sample sizes ([AICc](https://en.wikipedia.org/wiki/Akaike_information_criterion))/ Bayesian information criterion ([BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion)).
+
+The scalaTS enables calculations of information criterions including Akaike information criterions ([AIC](https://en.wikipedia.org/wiki/Akaike_information_criterion))/ AIC with correction for finite sample sizes ([AICc](https://en.wikipedia.org/wiki/Akaike_information_criterion))/ Bayesian information criterion ([BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion)).
 * Autoregressive regression (AR) (implement both Yule-Walker and OLS methods):
-- In statistics and signal process, the [autoregressive model](https://www.otexts.org/fpp/8/3) fits the values of a time series with its own lagged terms and a stochastic term.
+
+In statistics and signal process, the [autoregressive model](https://www.otexts.org/fpp/8/3) fits the values of a time series with its own lagged terms and a stochastic term.
 * Auto-AR model:
-- The auto autoregressive model fits an AR model with a given range of lags (p) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of lags for AR model.
+
+The auto autoregressive model fits an AR model with a given range of lags (p) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of lags for AR model.
 * Moving average (MA) regression:
-- Other than AR model's using lagged terms for a regression, the [moving average model](https://www.otexts.org/fpp/8/4) exploits past forecasting errors in the regression model.
+
+Other than AR model's using lagged terms for a regression, the [moving average model](https://www.otexts.org/fpp/8/4) exploits past forecasting errors in the regression model.
 * Auto-MA model:
-- The auto moving average model fits an MA model with a given range of values (q) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of q for MA model.
+
+The auto moving average model fits an MA model with a given range of values (q) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of q for MA model.
 * Autoregressive moving average (ARMA) regression:
-- Given a time series, the [ARMA](https://en.wikipedia.org/wiki/Autoregressive-moving-average_model) plays an important role in understanding and predicting future values in the series. The model combines both AR model and MA model. The AR part fits the values of the series on its own lagged values and the MA part linearly models the error term with the past errors.
+
+Given a time series, the [ARMA](https://en.wikipedia.org/wiki/Autoregressive-moving-average_model) plays an important role in understanding and predicting future values in the series. The model combines both AR model and MA model. The AR part fits the values of the series on its own lagged values and the MA part linearly models the error term with the past errors.
 * Auto-ARMA model:
-- The auto ARMA model finds best order of the autoregressive part (p) and order of the moving average part (q) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of (p, q) for ARMA model.
+
+The auto ARMA model finds best order of the autoregressive part (p) and order of the moving average part (q) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of (p, q) for ARMA model.
 * Autoregressive integrated moving average (ARIMA) regression:
-- An [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) model is an generalization of the ARMA model. The difference between ARMA model and ARIMA model is that the time series values in the ARIMA model are replaced by the differencing values. And the times of differencing are decided by the order (denoted as d).
+
+An [ARIMA](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) model is an generalization of the ARMA model. The difference between ARMA model and ARIMA model is that the time series values in the ARIMA model are replaced by the differencing values. And the times of differencing are decided by the order (denoted as d).
 * Auto-ARIMA model:
-- The auto ARIMA model picks best order of the autoregressive part (p), order of the moving average part (q) and order of the integrated part (d) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of (p, d, q) for ARIMA model.
+
+The auto ARIMA model picks best order of the autoregressive part (p), order of the moving average part (q) and order of the integrated part (d) according to different information criterions including AIC/ AICc/ BIC. It could automatically choose the best number of (p, d, q) for ARIMA model.
 
 
 ### Sponsor and Supporting Team
 The authors, Ao Li and Jin Xu, finished this scalaTS project during the time at Big Data Lab of [Suning R&D Palo Alto](http://www.ussuning.com/). Thanks are due to the team members for their supports: Kuangyu Wang, Ming Jiang, Weizhi Li, Xueting Shao, Ji Dai and Zhengyi Le.
 
-
-### Support or Contact
-Any questions or comments go to the [Google group](https://groups.google.com/d/forum/scalaTS).
+![logo](https://github.com/liao-iu/scalaTS/blob/master/docs/images/Suning_word.png)
 
 Copyright [2016/7] [Big Data lab, Suning R&D]
 
