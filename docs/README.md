@@ -89,7 +89,7 @@ The auto ARIMA model picks best order of the autoregressive part (p), order of t
 ### Sponsor and Supporting Team
 The authors, Ao Li and Jin Xu, finished this scalaTS project during the time at Big Data Lab of [Suning R&D Palo Alto](http://www.ussuning.com/). Thanks are due to the team members for their supports: Kuangyu Wang, Ming Jiang, Weizhi Li, Xueting Shao, Ji Dai and Zhengyi Le.
 
-![logo](https://github.com/liao-iu/scalaTS/blob/master/docs/images/Suning_word.png)
+![logo](https://github.com/liao-iu/scalaTS/raw/master/docs/images/Suning_word.png)
 
 Copyright [2016/7] [Big Data lab, Suning R&D]
 
